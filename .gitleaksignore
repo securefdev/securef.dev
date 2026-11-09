@@ -12,3 +12,15 @@ fd7a91f3226f173fd317229ed57f9cdd82fbfbcb:worker-configuration.d.ts:high-entropy-
 fd7a91f3226f173fd317229ed57f9cdd82fbfbcb:worker-configuration.d.ts:generic-secret:917
 fd7a91f3226f173fd317229ed57f9cdd82fbfbcb:worker-configuration.d.ts:generic-password:2242
 fd7a91f3226f173fd317229ed57f9cdd82fbfbcb:worker-configuration.d.ts:generic-password:6373
+2139a4b53fea0e4ab1e537c2b74e0dbd1c4ca18f:worker-configuration.d.ts:high-entropy-hex-like:6110
+2139a4b53fea0e4ab1e537c2b74e0dbd1c4ca18f:worker-configuration.d.ts:high-entropy-hex-like:6104
+2139a4b53fea0e4ab1e537c2b74e0dbd1c4ca18f:worker-configuration.d.ts:high-entropy-hex-like:5950
+2139a4b53fea0e4ab1e537c2b74e0dbd1c4ca18f:worker-configuration.d.ts:high-entropy-hex-like:5944
+2139a4b53fea0e4ab1e537c2b74e0dbd1c4ca18f:worker-configuration.d.ts:high-entropy-hex-like:5938
+2139a4b53fea0e4ab1e537c2b74e0dbd1c4ca18f:worker-configuration.d.ts:high-entropy-hex-like:5932
+2139a4b53fea0e4ab1e537c2b74e0dbd1c4ca18f:worker-configuration.d.ts:generic-password:6373
+2139a4b53fea0e4ab1e537c2b74e0dbd1c4ca18f:worker-configuration.d.ts:generic-password:2242
+2139a4b53fea0e4ab1e537c2b74e0dbd1c4ca18f:worker-configuration.d.ts:generic-secret:917
+2139a4b53fea0e4ab1e537c2b74e0dbd1c4ca18f:worker-configuration.d.ts:generic-api-key:5923
+2139a4b53fea0e4ab1e537c2b74e0dbd1c4ca18f:worker-configuration.d.ts:generic-api-key:2242
+2139a4b53fea0e4ab1e537c2b74e0dbd1c4ca18f:src/styles/global.css:high-entropy-hex-like:3
