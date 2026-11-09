@@ -5,7 +5,7 @@ import favicon from "../../public/favicon.svg";
 import ThemeIcon from "./ThemeIcon.astro";
 import { getCollection } from "astro:content";
 
-const tools = await getCollection("tools");
+const utilities = await getCollection("utilities");
 ---
 
 <header>
@@ -21,12 +21,12 @@ const tools = await getCollection("tools");
     <div class="internal-links">
       <HeaderLink href="/">Resume</HeaderLink>
       <HeaderLink href="/notes">Notes</HeaderLink>
-      <div class="tools-menu">
-        <span class="tools-trigger">Tools</span>
-        <ul class="tools-dropdown">
-          {tools.map((tool) => (
+      <div class="utilities-menu">
+        <span class="utilities-trigger">Utilities</span>
+        <ul class="utilities-dropdown">
+          {utilities.map((utility) => (
             <li>
-              <a href={`/tools/${tool.id}/`}>{tool.id}</a>
+              <a href={`/utilities/${utility.id}/`}>{utility.id}</a>
             </li>
           ))}
         </ul>
@@ -118,21 +118,21 @@ const tools = await getCollection("tools");
     display: flex;
     align-items: center;
   }
-  .tools-menu {
+  .utilities-menu {
     position: relative;
   }
-  .tools-trigger {
+  .utilities-trigger {
     display: inline-block;
     padding: 1em 0.5em;
     color: var(--black);
     border-bottom: 4px solid transparent;
     cursor: pointer;
   }
-  .tools-menu:hover .tools-trigger,
-  .tools-menu:focus-within .tools-trigger {
+  .utilities-menu:hover .utilities-trigger,
+  .utilities-menu:focus-within .utilities-trigger {
     border-bottom-color: var(--accent);
   }
-  .tools-dropdown {
+  .utilities-dropdown {
     position: absolute;
     top: 100%;
     left: 0;
@@ -147,16 +147,16 @@ const tools = await getCollection("tools");
     text-transform: capitalize;
     font-size: 14px;
   }
-  .tools-menu:hover .tools-dropdown,
-  .tools-menu:focus-within .tools-dropdown {
+  .utilities-menu:hover .utilities-dropdown,
+  .utilities-menu:focus-within .utilities-dropdown {
     display: block;
   }
-  .tools-dropdown a {
+  .utilities-dropdown a {
     display: block;
     padding: 0.1rem 0.6rem;
     white-space: nowrap;
   }
-  .tools-dropdown a:hover {
+  .utilities-dropdown a:hover {
     background: rgb(var(--gray-light));
   }
   @media (max-width: 720px) {
