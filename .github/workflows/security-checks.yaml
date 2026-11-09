@@ -13,12 +13,12 @@ permissions:
 
 jobs:
   baseline:
-    uses: securefdev/configs/.github/workflows/security-baseline.yaml@master
+    uses: securefdev/utils/.github/workflows/security-baseline.yaml@master
 
   semgrep:
-    uses: securefdev/configs/.github/workflows/semgrep.yaml@master
+    uses: securefdev/utils/.github/workflows/semgrep.yaml@master
 
   secret-scan:
-    uses: securefdev/configs/.github/workflows/secret-scan.yaml@master
+    uses: securefdev/utils/.github/workflows/secret-scan.yaml@master
     with:
-      configs-ref: master
+      utils-ref: master
